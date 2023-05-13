@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>technical-documentation</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="styles.css" rel="stylesheet">
+
+<div class="main-body">
+<nav id="navbar" class="navbar-collapse">
+    <header>JS Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Javascript" class="nav-link">Javascript</a>
+    <a href="#Variables" class="nav-link">Variables</a>
+    <a href="#Scope" class="nav-link">Scope</a>
+    <a href="#Functions" class="nav-link">Functions</a>
+</nav>
+    
+
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>the first time i was introduced to programming, i never knew i will be successful.thought it was beyoun my strenght</p>
+        <p>but with determinations and dedications, i am getting better at it. </p>
+
+    </section>
+    <section class="main-section" id="Javascript">
+        <header>Javascript</header>
+        <p>Javascript and java are similar in some ways but different in others</p>
+        <p>the javascript language resembles java but does not have static typing</p>
+        <code>function greetMe(yourName){
+            alert("hello " +yourName);
+        }
+        greetMe("World");</code>
+        
+        <ul>
+            <li>variables</li>
+            <li>functions</li>
+            <li>control flow</li>
+            <li>promises</li>
+            <li>the strange parts</li>
+        </ul>
+
+    </section>
+    <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>i love variable , the allow you to store any item with a prefered name during coding.</p>
+        <p>variables are available in all the programming language</p>
+        <code>const PI = 3.14;</code>
+        <code>//THIS WILL CAUSE AN ERROR
+            function f() {};
+            const f = 5;
+            //THIS WILL CAUSEAN ERROR ALSO
+            function () {
+                const g = 5;
+                var g;
+                //statement
+            }</code>
+        
+
+    </section>
+    <section class="main-section" id="Scope">
+        <header>Scope</header>
+        <p>the scope of programming is so broad, from python, c++, java, javascript etc</p>
+        <p>a lot of people dont like programming because it requires a lot of time and its very stressful</p>
+        <code>if (true) {
+            var x = 5; 
+        }
+        console.log(x); //5</code>
+    
+
+    </section>
+    <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>functions are very useful in programming, makes it easier, faster and more efficient</p>
+        <p>however, if you forget to call a function, it does not work</p>
+        <code>fuunction square(number) {
+            return number * number;
+        }</code>
+        
+        <code>return number * number;</code>
+
+    </section></div>
+</main>    
+
+  
+    
+</body>
+</html>
